@@ -1,0 +1,98 @@
+📦Shop_DigiPhone
+ ┣ 📂config
+ ┃ ┣ 📜function.php
+ ┃ ┗ 📜config.php
+ ┣ router
+ ┃ ┣ 📜index.php
+ ┃ ┗ 📜route.php
+ ┣ 📂assets
+ ┃ ┣ 📂css
+ ┃ ┃ ┣ 📜admin.css
+ ┃ ┃ ┣ 📜style.css
+ ┃ ┃ ┗ 📜responsive.css
+ ┃ ┣ 📂js
+ ┃ ┃ ┣ 📜admin.js
+ ┃ ┃ ┣ 📜cart.js
+ ┃ ┃ ┗ 📜main.js
+ ┃ ┣ 📂images
+ ┃ ┃ ┣ 📂banners
+ ┃ ┃ ┣ 📂products
+ ┃ ┃ ┗ 📂blog
+ ┃ ┗ 📂uploads
+ ┃   ┣ 📂products
+ ┃   ┗ 📂users
+ ┣ 📂controllers
+ ┃ ┣ 📂admin
+ ┃ ┃ ┣ 📜DashboardController.php
+ ┃ ┃ ┣ 📜ProductController.php
+ ┃ ┃ ┣ 📜CategoryController.php
+ ┃ ┃ ┣ 📜OrderController.php
+ ┃ ┃ ┣ 📜UserController.php
+ ┃ ┃ ┣ 📜ReviewController.php
+ ┃ ┃ ┗ 📜PromotionController.php
+ ┃ ┗ 📂site
+ ┃   ┣ 📜HomeController.php
+ ┃   ┣ 📜ProductController.php
+ ┃   ┣ 📜CartController.php
+ ┃   ┣ 📜AuthController.php
+ ┃   ┣ 📜UserController.php
+ ┃   ┣ 📜OrderController.php
+ ┃   ┣ 📜BlogController.php
+ ┃   ┗ 📜PageController.php
+ ┣ 📂models
+ ┃ ┣ 📜ProductModel.php
+ ┃ ┣ 📜CategoryModel.php
+ ┃ ┣ 📜UserModel.php
+ ┃ ┣ 📜OrderModel.php
+ ┃ ┣ 📜CartModel.php
+ ┃ ┣ 📜ReviewModel.php
+ ┃ ┣ 📜BlogModel.php
+ ┃ ┗ 📜PromotionModel.php
+ ┣ 📂views
+ ┃ ┣ 📂admin
+ ┃ ┃ ┣ 📂layouts
+ ┃ ┃ ┃ ┣ 📜header.php
+ ┃ ┃ ┃ ┣ 📜footer.php
+ ┃ ┃ ┃ ┗ 📜sidebar.php
+ ┃ ┃ ┣ 📜dashboard.php
+ ┃ ┃ ┣ 📜products
+ ┃ ┃ ┃ ┣ 📜index.php
+ ┃ ┃ ┃ ┣ 📜create.php
+ ┃ ┃ ┃ ┗ 📜edit.php
+ ┃ ┃ ┣ 📜categories
+ ┃ ┃ ┣ 📜orders
+ ┃ ┃ ┣ 📜users
+ ┃ ┃ ┣ 📜reviews
+ ┃ ┃ ┗ 📜promotions
+ ┃ ┗ 📂site
+ ┃   ┣ 📂layouts
+ ┃   ┃ ┣ 📜header.php
+ ┃   ┃ ┣ 📜footer.php
+ ┃   ┃ ┗ 📜sidebar.php
+ ┃   ┣ 📂home
+ ┃   ┃ ┣ 📜index.php
+ ┃   ┃ ┗ 📜featured.php
+ ┃   ┣ 📂products
+ ┃   ┃ ┣ 📜index.php
+ ┃   ┃ ┣ 📜detail.php
+ ┃   ┃ ┗ 📜category.php
+ ┃   ┣ 📂cart
+ ┃   ┃ ┣ 📜index.php
+ ┃   ┃ ┗ 📜checkout.php
+ ┃   ┣ 📂user
+ ┃   ┃ ┣ 📜profile.php
+ ┃   ┃ ┣ 📜orders.php
+ ┃   ┃ ┣ 📜wishlist.php
+ ┃   ┃ ┗ 📜reviews.php
+ ┃   ┣ 📂auth
+ ┃   ┃ ┣ 📜login.php
+ ┃   ┃ ┗ 📜register.php
+ ┃   ┣ 📂blog
+ ┃   ┃ ┣ 📜index.php
+ ┃   ┃ ┗ 📜detail.php
+ ┃   ┗ 📂pages
+ ┃     ┣ 📜about.php
+ ┃     ┣ 📜contact.php
+ ┃     ┗ 📜policy.php
+ ┣ 📜.htaccess
+ ┗ 📜index.php
