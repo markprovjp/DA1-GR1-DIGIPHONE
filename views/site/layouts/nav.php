@@ -41,9 +41,32 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2 nav-list-product-icon">
-                <div class="nav-list-product-search-icon-item">
+            <div class="col-1 nav-list-product-icon">
+                <div class="nav-list-product-search-icon-item ">
+                   
                     <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="nav-list-product-search-icon-item position-relative">
+                <span class="position-absolute top-2 start-100 translate-middle badge rounded-pill bg-warning-2 ">
+                        0
+                        <!-- <span class="visually-hidden">unread messages</span> -->
+                    </span>
+                    <i class="fa-solid fa-rotate"></i>
+                </div>
+                <div class="nav-list-product-search-icon-item position-relative">
+                <span class="position-absolute top-2 start-100 translate-middle badge rounded-pill bg-warning-2 ">
+                        0
+                        <!-- <span class="visually-hidden">unread messages</span> -->
+                    </span>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                
+                <div class="nav-list-product-search-icon-item position-relative">
+                <span class="position-absolute top-2 start-100 translate-middle badge rounded-pill bg-warning-2 ">
+                        0
+                        <!-- <span class="visually-hidden">unread messages</span> -->
+                    </span>
+                    <i class="fa-solid fa-cart-shopping"></i>
                 </div>
             </div>
         </div>
